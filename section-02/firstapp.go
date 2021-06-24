@@ -3,5 +3,11 @@ package main
 import "fmt"
 
 func main(){
-	fmt.Println("First app here")
+	// var greetingText string
+	// greetingText  = "First app here"
+
+	greetingText := "First app here"
+
+	fmt.Println(greetingText)
+	fmt.Println(greetingText)
 }
