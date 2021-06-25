@@ -23,4 +23,12 @@ func main(){
 	fmt.Println(newNumber)
 	fmt.Println(defaultFloat)
 	fmt.Println(smallFloat)
+
+	var firstRune rune = 'a'
+	fmt.Println(firstRune)
+	fmt.Println(string(firstRune))
+
+	var firstByte byte = 'a'
+	fmt.Println(firstByte)
+	fmt.Println(string(firstByte))
 }
