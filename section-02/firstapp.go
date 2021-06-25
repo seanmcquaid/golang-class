@@ -34,7 +34,8 @@ func main(){
 
 	firstName := "Sean"
 	lastName := "McQuaid"
+	age := 28
 
-	fmt.Println(firstName + " " + lastName)
+	fmt.Printf("Hi I am %v %v and I am %v years old", firstName, lastName, age)
 	// fmt.Println(int("9"))
 }
