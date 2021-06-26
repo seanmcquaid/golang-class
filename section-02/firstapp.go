@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
 
-var greetingText = "First app here"
+	"github.com/yourorg/firstapp/greeting"
+)
 
 func main(){
 	// var greetingText string
@@ -11,7 +13,7 @@ func main(){
 	luckyNumber := 12
 	evenMoreLuckyNumber := luckyNumber + 5
 
-	fmt.Println(greetingText)
+	fmt.Println(greeting.GreetingText)
 	fmt.Println(luckyNumber)
 	fmt.Println(evenMoreLuckyNumber)
 
