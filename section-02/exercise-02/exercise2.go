@@ -2,8 +2,9 @@ package main
 
 import "fmt"
 
+const pi = 3.14
+
 func main() {
-	pi := 3.14
 	// var pi float32 = 3.14
 	radius := 5
 
