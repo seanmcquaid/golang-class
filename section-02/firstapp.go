@@ -2,11 +2,11 @@ package main
 
 import "fmt"
 
+var greetingText = "First app here"
+
 func main(){
 	// var greetingText string
 	// greetingText  = "First app here"
-
-	greetingText := "First app here"
 
 	luckyNumber := 12
 	evenMoreLuckyNumber := luckyNumber + 5
