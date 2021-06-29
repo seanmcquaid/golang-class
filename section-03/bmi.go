@@ -24,14 +24,16 @@ func main(){
 	fmt.Println("Please enter your height (m): ")
 	heightInput, _ := reader.ReadString('\n')
 
+	// Save that user input in variables
 	weightInput = strings.Replace(weightInput, "\n", "", -1)
 	heightInput = strings.Replace(heightInput, "\n", "", -1)
 
 	weight, _ := strconv.ParseFloat(weightInput, 64)
 	height, _ := strconv.ParseFloat(heightInput, 64)
 
-
-	// Save that user input in variables
 	// Calculate the BMI (weight / (height * height))
+	bmi := weight / (height * height)
+
 	// Output the calculated BMI
+	fmt.Printf("Your BMI is %.2f", bmi)
 }
