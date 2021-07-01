@@ -12,14 +12,15 @@ func main(){
 	printNumber(sum)
 }
 
-func add(a int, b int) int {
-	return a + b
+func add(a int, b int) (sum int) {
+	sum = a + b
+	return
 }
 
-func generateRandomNumbers() (int, int) {
-	randomNumberOne := rand.Intn(10)
-	randomNumberTwo := rand.Intn(10)
-	return randomNumberOne, randomNumberTwo
+func generateRandomNumbers() (randomNumberOne int, randomNumberTwo int) {
+	randomNumberOne = rand.Intn(10)
+	randomNumberTwo = rand.Intn(10)
+	return
 }
 
 func printNumber(num int){
