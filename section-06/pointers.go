@@ -9,5 +9,9 @@ func main() {
 
 	myAge := &age
 
+	*myAge = 33
+
 	fmt.Println(myAge)
+	fmt.Println(*myAge)
+	fmt.Println(age)
 }
